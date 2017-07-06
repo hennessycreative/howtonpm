@@ -4,12 +4,19 @@
   "description": "learn how to use npm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "author": "Kay Chan",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hennessycreative/howtonpm.git"
+    "url": "git+https://github.com/hennessycreative/howtonpm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hennessycreative/howtonpm/issues"
+  },
+  "homepage": "https://github.com/hennessycreative/howtonpm#readme",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
   }
 }
